@@ -1,31 +1,32 @@
 import React, { Component } from 'react';
 import './Header.css';
-
+import NavBar from '../Common/NavBar';
 
 
 class Header extends Component{
+    constructor(props) {
+        super(props);
+    }
+
+
     render(){
         return (
             <div className='header-container'>
-                <div className='header-text'>
+               <div className='header-text'>
                     <div id='font-top'>The City Of</div>
-                    <div id='city-name'>Elizabeth</div>
+                  <div id='city-name'>Elizabeth</div>
                     <div id='found'>Founded 1664</div>
-                </div>
+                </div> 
                 <div className='seal-cont'>
-                    <img id='seal' src={ require('../Images/COES.jpg') } />
+                    <img id='seal' src={require('../../Images/COES.jpg')} alt='seal' />
+                </div>
+                <div className='nav-bar-cont'>
+                   <NavBar/>
                 </div>
             </div>
         )
     }
 };
-const style = {
-    headerCont:{
-        borderWidth: 5,
-        border: 'solid',
-        width: '100%',
-        height: 150
-    }
-}
+
 export default Header;
 
