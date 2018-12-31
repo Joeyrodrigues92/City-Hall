@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Row, Col, Button } from 'reactstrap';
+import { Container, Row, Col} from 'reactstrap';
 import VRAppEng from '../PDF/AppVitalEng.pdf';
 import VRAppS from '../PDF/AppVitalS.pdf';
 
@@ -31,7 +31,7 @@ class Vital extends Component {
                 </Row>
                 <Row>
                     <Col>
-                        <h2>Information and Applications:</h2>
+                        <h2 id='infoApp'>Information and Applications:</h2>
                     </Col>
                 </Row>
                 <Row>
@@ -45,8 +45,15 @@ class Vital extends Component {
                                 <a href={VRAppS} target='_blank'>Application for Vital Records (Spanish)</a>
                             </li>
                         </ul>
-                    </Col> 
-                    <Col>
+                        Marriage License Information
+                        <ul>
+                            <li>
+                                <a>Marriage License Application (English</a>
+                            </li>
+                            <li>
+                                <a>Marriage License Application (Spanish)</a>
+                            </li>
+                        </ul>
                         How to Request Copies of Genealogical Records
                         <br/>
                         <p style={{marginBottom: '0px', fontWeight: 'bold'}}>(Beginning May 1848 except May 1870 – Dec 1872 and May 1878 – Dec 1881)</p> 
@@ -58,20 +65,7 @@ class Vital extends Component {
                                 <a>Application for Genealogical Records (Spanish)</a>
                             </li>
                         </ul>
-                   </Col> 
-                </Row>
-                <Row>
-                    <Col>
-                        Marriage License Information
-                        <ul>
-                            <li>
-                                <a>Marriage License Application (English</a>
-                            </li>
-                            <li>
-                                <a>Marriage License Application (Spanish)</a>
-                            </li>
-                        </ul>
-                    </Col> 
+                    </Col>                 
                     <Col>
                         <h5 style={{marginBottom: '0px', color: 'red'}}>Helpful Links and Resources:</h5>
                         <ul>
@@ -89,18 +83,18 @@ class Vital extends Component {
                             <li><p><a href='https://www.state.nj.us/health/vital/order-vital/local-vital-records/index.shtml'>Other Local Registrar Offices in New Jersey (Listed by County)</a></p></li>
                         
                         </ul>
-                    </Col>
+                    </Col> 
                 </Row>
                 <hr />
                 <Row>
                     <Col>
-                        <h2>Instructions for obtaining Certified Copies of Non-Genealogical Records</h2>               
+                        <h2 id='nongene'>Instructions for obtaining Certified Copies of Non-Genealogical Records</h2>               
                     </Col>
                 </Row>
                 <Row style={{marginTop: '25px'}}>
                     <Col>
                         <h5 style={{fontWeight: 'bold'}}>Birth, Death, Marriage, Civil Union and Domestic Partnership</h5>
-                        <p>Non-Genealogical Records (current events) are:</p>
+                        <p style={{fontWeight: 'bold'}}>Non-Genealogical Records (current events) are:</p>
                         <ul>
                             <li>Births occurring within the last 80 years</li>
                             <li>Marriages occurring within the last 50 years</li>  
@@ -108,8 +102,10 @@ class Vital extends Component {
                             <li>All domestic partnerships and civil unions.</li>      
                         </ul>             
                     </Col>
-                    <Col style={{marginTop: '55px'}}>
-                        <p>For all orders, the following <span style={{fontWeight: 'bold'}}>must</span> be sent with your application:</p>
+                </Row>
+                <Row>
+                    <Col >
+                        <p style={{fontWeight: 'bold'}}>For all orders, the following <u>must</u> be sent with your application:</p>
                         <ul>
                             <li>All required copies of ID for proof of identity</li>
                             <li>The correct fees</li>  
@@ -119,9 +115,10 @@ class Vital extends Component {
                         <p>*(See bottom of page for information to obtain a Certification or Genealogical Records)</p>             
                     </Col>
                 </Row>
+                <hr/>
                 <Row>
                     <Col>
-                        <h5>Your application will be returned if you do not send in all required documentation.</h5>
+                        <h5 style={{fontWeight: 'bold'}}>Your application will be returned if you do not send in all required documentation.</h5>
                     </Col>
                 </Row>
                 <Row>
@@ -137,7 +134,7 @@ class Vital extends Component {
                 </Row>
                 <Row>
                     <Col>
-                        <h5 style={{marginBottom: '30px'}}>How to prove relationship for non-genealogical records:</h5>
+                        <h5 style={{marginBottom: '30px', fontWeight: 'bold'}}>How to prove relationship for non-genealogical records:</h5>
                     </Col>
                 </Row>
                 <Row>
@@ -195,15 +192,15 @@ class Vital extends Component {
                         	<li>$15 for EACH Certified Copy (Birth, Marriage, Death, Civil Union, Domestic Partnership)</li>
 		                    <li>Applications mailed in may be paid by check or money order made payable to: City of Elizabeth</li>
 		                    <li>We cannot accept credit card payment by mail</li>
-		                    <li style={{fontWeight:'bold'}}>Please do not send cash through the mail.</li>
+		                    <li><u>Please do not send cash through the mail.</u></li>
                         </ul>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
                         <h6 style={{fontWeight: 'bold'}}>Step 4: Proof of Relationship</h6>  
-                        <p style={{fontWeight: 'bold'}}>ONLY required if ordering a certified copy of a vital record.</p>
-                        <p>To get a <span style={{fontWeight: 'bold'}}>certified copy</span> of a person’s vital record, you must provide proof of your relationship to the person listed on the record <span style={{fontWeight: 'bold'}}>and</span> the proof must establish you are one of the following:</p>          
+                        <p style={{fontWeight: 'bold', color: 'red'}}>ONLY required if ordering a certified copy of a vital record.</p>
+                        <p style={{fontWeight: 'bold'}}>To get a <u>certified copy</u> of a person’s vital record, you must provide proof of your relationship to the person listed on the record <u>and</u> the proof must establish you are one of the following:</p>          
                         <ul>
                         	<li>The subject of the record</li>
 		                    <li>The subject’s parent, legal guardian or legal representative</li>
@@ -280,9 +277,10 @@ class Vital extends Component {
                         </ul>
                     </Col>
                 </Row>
+                <hr />
                 <Row>
                     <Col>
-                    <p>If you<span style={{fontWeight: 'bold'}}> are not</span> a person qualified to get a <span style={{sontWeight:'bold'}}>certified copy</span> of a record</p>
+                    <p id='genealogical'>If you<span style={{fontWeight: 'bold'}}> are not</span> a person qualified to get a <span style={{sontWeight:'bold'}}>certified copy</span> of a record</p>
                     <ul>
                         <li>but <span style={{sontWeight:'bold'}}>you are helping</span> a person receive a certified copy of a vital record they are eligible to receive </li>
                     </ul>
@@ -294,11 +292,11 @@ class Vital extends Component {
                         <p>If you are an <span style={{fontWeight: 'bold'}}>attorney</span></p>
                         <ul>
                         	<li>who is executor of an estate you must supply proof of appointment as the executor.</li>
-		<li>who is the legal representative of the executor of an estate: you must supply proof of legal retainer by the executor and proof of the appointment of the individual as the executor.</li>
-		<li>who is the legal representative of an individual that is eligible to receive a certified copy of a vital record: 
-you must supply proof of legal retainer by the eligible individual and their proof of relationship.</li>
-		<li>who needs a certified copy of a vital record and you are not the legal representative of an eligible person:
-you must obtain a court order directing the State Registrar to issue a certified copy of the record. A subpoena is not sufficient to issue a copy of a vital record.</li>
+		                    <li>who is the legal representative of the executor of an estate: you must supply proof of legal retainer by the executor and proof of the appointment of the individual as the executor.</li>
+		                    <li>who is the legal representative of an individual that is eligible to receive a certified copy of a vital record: 
+                                must supply proof of legal retainer by the eligible individual and their proof of relationship.</li>
+		                    <li>who needs a certified copy of a vital record and you are not the legal representative of an eligible person:
+                                you must obtain a court order directing the State Registrar to issue a certified copy of the record. A subpoena is not sufficient to issue a copy of a vital record.</li>
                         </ul>
 
                     </Col>
@@ -306,9 +304,11 @@ you must obtain a court order directing the State Registrar to issue a certified
             </Container>
             </div>
             <div className="sidebar" style={style.sidebar}>
-                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#pubNot'>Public Notices</a></h6>
-                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#RFQP'>PRFQs/RFPs</a></h6>
-                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#WM'>Weights & Measures</a></h6>
+                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a href='#infoApp'>Information & Applications</a></h6>
+                    <hr/>
+                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#nongene'>Non-Genealogical Records</a></h6>
+                    <hr/>
+                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#genealogical'>Genealogical Records</a></h6>
                 </div>
         </div>
     );
@@ -330,7 +330,7 @@ const style = {
       },
       sidebar: {
         width: '200px',
-        height: '25vh',
+        height: '100%',
         position: '-webkit-sticky',
         position: 'sticky',
         top: '0',

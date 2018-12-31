@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
-import { slide as Menu } from "react-burger-menu";
+import { Container, Row, Col} from 'reactstrap';
+
+
 
 class About extends Component{
 
     render(){
         return (
-            <div><h1>about</h1></div>
+            <div>
+                <Container>
+                </Container>
+            </div>
 
         )
     }

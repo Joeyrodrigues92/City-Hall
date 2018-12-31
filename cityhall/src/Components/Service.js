@@ -1,14 +1,154 @@
 import React, { Component } from 'react';
+import { Container, Row, Col} from 'reactstrap';
 
 class Service extends Component{
 
     render(){
         return (
-            <div>
-               <h1>Service</h1>
+            <div class="wrapper" style={style.wrapper}>
+                <div className="main" style={style.main}>
+                    <Container>
+                    <Row>
+                            <Col>
+                                <h1>Services</h1>
+                            </Col>
+                        </Row>
+                        <hr/>
+                        <Row>
+                            <Col>
+                                <h2 id='app'>Applications</h2>
+                                <ul>
+                                    <li><a href=''>Eliz Protects (Dog License)</a></li>
+                                    <li><a href=''>Eliz Recycle(Recycle Coach)</a></li>
+                                    <p>Available to download from the Google Play Store and App store</p>
+                                    <li><a href=''>Eliz Zoning Map</a></li>
+                                    <li><a href=''>GOV Pilot GIS Maps</a></li>
+                                    <p>GOV Pilot is available to download from the Google Play Store.</p>
+                                </ul>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <h2 id='garbage'>2019 Garbage and Recycling Brochure</h2>
+                            </Col>
+                        </Row>
+                        <hr />
+                        <Row>
+                            <Col style={{ textAlign: 'center'}}>
+                                <h2 id='emip'>Elizabeth Municipal ID Program</h2>
+                                <p>On November 9, 2016, the Elizabeth City Council passed a city ordinance implementing the City of Elizabeth Municipal Identification Card
+                                    Program (EMID).  As the fourth largest municipality in New Jersey, this initiative supports our growing, diverse population. 
+                                </p>
+                                <p>For our residents, the EMID program provides increased access to civic and economic services.  The Identification Card can be obtained at the Elizabeth Public Library Main Branch, which is located at 11 Broad Street within the City of Elizabeth.  It is available to all residents of Elizabeth, including but not limited to: immigrants, the homeless as well as the formerly incarcerated and others who may have difficulty in obtaining government-issued identification.</p>
+                                <p>The EMID serves as an official form of photo identification and therefore will be recognized at any public institution within the City of Elizabeth including, but not limited to: schools, the police department and municipal court.  The EMID Program is proud to partner with many local businesses, banks and the Elizabeth Public Library.  In addition, the EMID can be used as a library card.  </p>
+                                <h6>TO VIEW THE BROCHURE IN ENGLISH, <a href=''>CLICK HERE.</a></h6>
+                                <h6>TO VIEW THE BROCHURE IN SPANISH, <a href=''>CLICK HERE.</a></h6>
+                                <br/>
+                                <p style={{fontWeight: 'bold', marginBottom: '0px'}}><u>EMID and Elizabeth Public Library Program Scheduling Appointments</u></p>
+                                <p>For more information, please email: emid@elizabethnj.org or call 908-820-4298</p>
+                                <p style={{fontWeight: 'bold', marginBottom: '0px'}}><u>EMID ID and Library Card Application Processing</u></p>
+                                <p>11 South Broad Street, Second Floor, Elizabeth, New Jersey 07202</p>
+                                <h6>TO VIEW OR DOWNLOAD THE APPLICATION, <a href=''>CLICK HERE.</a></h6>
+                                <h6>TO VIEW OR DOWNLOAD THE APPLICATION IN SPANISH, <a href=''>CLICK HERE.</a></h6>
+                                <br/>
+                                <p style={{fontWeight: 'bold'}}>Hours Of Operation:</p>
+                                <p>Monday through Thursday</p>
+                                <p>2:00 p.m. to 7:00 p.m.</p>
+                                <p>Saturdays </p>
+                                <p>10:00 a.m. to 3:00 p.m.</p>
+                                <p style={{fontWeight: 'bold'}}>(Hours of operation may be affected by inclement weather or other unplanned circumstances)</p>
+                            </Col>
+                        </Row>
+                        <hr/>
+                        <Row>
+                            <Col style={{ textAlign: 'center'}}>
+                                <h2 id='aging'>Office on Aging</h2>
+                                <p>The Office on Aging sponsors a number of programs, activities, and services that provide assistance to senior citizens and disabled residents of Elizabeth. In order to process applications correctly, it is highly advisable to contact the office regarding the eligibility guidelines and the necessary documents required. Please note that income guidelines and documents are subject to change. The Office on Aging is located at City Hall on the ground floor (Room G-8) at 50 Winfield Scott Plaza. Inquiries concerning services may be made by calling (908) 820-4045 or 820-4044.</p>
+                                <p style={{marginBottom: '0px', fontWeight: 'bold'}}>Alonzo Jones</p>
+                                <p style={{marginBottom: '0px', fontWeight: 'bold'}}>Phone: (908) 820-4044</p>
+                                <p style={{fontWeight: 'bold'}}>Email: Ajones@elizabethnj.org</p>
+                                <p>Senior Citizen Centers offer a weekly nutritional program, daily activities, and monthly planned trips, please call the centers for further details:</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                O'Donnell Dempsey 622 Salem Avenue Elizabeth, NJ 07208 (908) 354-7431
+                            </Col>
+                            <Col>
+                                Stephen Sampson 800 Anna Street Elizabeth, NJ 07201 (908) 820-4707  
+                            </Col>
+                            <Col> 
+                                Liberty Square Senior Center 240 Elizabeth Avenue Elizabeth, NJ 07206 (908) 820-4700 
+                            </Col>
+                            <Col>
+                                Peterstown Community Center* 418 Palmer Street Elizabeth, NJ 07202 (908) 820-4288 <br/> <span style={{fontWeight: 'bold'}}>In accordance with the City of Elizabeth Recreation Department</span>
+                            </Col>
+                            <Col>
+                            <span style={{fontWeight: 'bold'}}>MAIN OFFICE</span> Elizabeth City Hall Room G8 50 Winfield Scott Plaza Elizabeth, NJ 07201 (908) 820-4045
+                            </Col>
+                        </Row>
+                        <hr/>
+                        <Row>
+                            <Col style={{ textAlign: 'center'}}>
+                                <h2 id='youth'>Youth Services </h2>
+                                <h5>The Mission of the Office of Youth Services (O.Y.S.)</h5>
+                                <p>The Office of Youth Services promotes youth development, improve the conditions for children, and identify resources within the community. The O.Y.S. also encourages support strategies to allow children/youth to recognize their highest potential, promote continuous collaboration with community groups and agencies. The Office of Youth assist in establishing and expanding programs and services for the youth and encourage them to be contributing members within their communities. The Office of Youth Services serves as a central point of information in Elizabeth for youth- related issues.</p>
+                                <p>The success of these programs has been measured in the achievement of academic excellence, increased volunteerism, participation in community-oriented events, choosing of healthy and positive alternatives, and an overall improved quality of life.</p>
+                                <p>The Office of Youth Services operates youth-oriented programs, which include, but are not limited to S.O.A.R., Safe Haven, and the Building Future Leaders Program. These initiatives are unique and innovative because they address quality of life issues impacting the youth of the City of Elizabeth holistically. The programs assist younger children within the city through mentoring and project interaction with members of the community. These youth-oriented programs focus upon honing skills, wellness and healthy living, as well as positive alternatives to achieving success. These valuable services include the coordination of daily activities and the implementation of forums that address youth development, health, violence prevention, problem solving, self-esteem building, substance abuse, sexually transmitted diseases, adolescent/teenage pregnancy prevention and after-school activities.</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <p style={{marginBottom: '0px'}}>Donald M. Johnson, Supervisor</p>
+                                <p style={{marginBottom: '0px'}}>Phone: (908) 820-4032</p>
+                                <p>Email: djohnson@elizabethnj.org</p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>            
+            <div className="sidebar" style={style.sidebar}>
+                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a href='#app'>Applications</a></h6>
+                <hr/>
+                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a href='#garbage'>Garbage & Recycling Brochure</a></h6>
+                <hr/>
+                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a href='#emip'>Elizabeth Municipal ID Program</a></h6>
+                <hr />
+                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a href='#aging'>Office on Aging</a></h6>
+                <hr/>
+                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a href='#youth'>Office of Youth</a></h6>
+                <hr/>
             </div>
+        </div>
         )
     }
 };
 
+const style = {
+    wrapper: {
+        display: 'flex',
+        backgroundColor: '#ccc',
+        fontFamily: 'sans-serif',
+        padding: '10px'
+      },
+      main: {
+        width: '950px',
+        height: '100%',
+        border: '2px solid black',
+        padding: '15px',
+        backgroundColor: '#fff'
+      },
+      sidebar: {
+        width: '200px',
+        height: '100%',
+        position: '-webkit-sticky',
+        position: 'sticky',
+        top: '0',
+        marginLeft: '20px',
+        paddingLeft: '5px',
+        paddingRight: '5px',
+        paddingTop: '30px',
+        border:'2px solid black',
+        backgroundColor: 'white'
+      }
+}
 export default Service;

@@ -16,7 +16,7 @@ class Business extends Component{
                     <Container>
                         <Row>
                             <Col>
-                                <h1 id='pubNot'>Public Notice</h1>
+                                <h2 id='pubNot'>Public Notice</h2>
                             </Col>
                         </Row>
                         <Row>
@@ -28,9 +28,10 @@ class Business extends Component{
                                 </ul>
                             </Col>
                         </Row>
+                        <hr/>
                         <Row>
                             <Col>
-                                <h1 id='RFQP'>RFQs / RFPs</h1>
+                                <h2 id='RFQP'>RFQs / RFPs</h2>
                             </Col>
                         </Row>
                         <Row>
@@ -43,9 +44,10 @@ class Business extends Component{
                                 </ul>
                             </Col>
                         </Row>
+                        <hr/>
                         <Row>
-                            <Col>
-                                <h1 id='WM'>Weights & Measures</h1>
+                            <Col style={{textAlign: 'center'}}>
+                                <h2 id='WM'>Weights & Measures</h2>
                             </Col>
                         </Row>
                         </Container>
@@ -56,33 +58,36 @@ class Business extends Component{
                                 <p style={{marginBottom: '0'}}>Agency of Weights and Measures</p>
                                 <p style={{marginBottom: '0'}}>Room 101</p>
                                 <p style={{marginBottom: '0'}}>50 Winfield Scott Plaza</p>
-                                <p style={{marginBottom: '0'}}>Elizabeth, NJ 07207</p>
-                                <hr />
+                                <p>Elizabeth, NJ 07207</p>
+
                                 <p style={{fontWeight: 'bold', marginBottom: '0'}}>Anthony P. Colletti</p>
                                 <p style={{marginBottom: '0'}}>Superintendent Weights & Measures</p>
                                 <p style={{marginBottom: '0'}}>Email: acolletti@elizabethnj.org</p>
-                                <p style={{marginBottom: '0'}}>908-820-4180</p>
+                                <p>908-820-4180</p>
 
                                 <p style={{fontWeight: 'bold', marginBottom: '0'}}>Lilian I. Caparruva</p>
                                 <p style={{marginBottom: '0'}}>Assistant Superintendent of Weights & Measures</p>
                                 <p style={{marginBottom: '0'}}>Email: lcaparruva@elizabethnj.org</p>
-                                <p style={{marginBottom: '0'}}>908-820-4286</p>
+                                <p>908-820-4286</p>
 
                                 <p style={{fontWeight: 'bold', marginBottom: '0'}}>Antoine S. Neal</p>
                                 <p style={{marginBottom: '0'}}>Apprentice of Weights & Measures</p>
                                 <p style={{marginBottom: '0'}}>Email: aneal@elizabethnj.org</p>
-                                <p style={{marginBottom: '0'}}>908-820-4184</p>
+                                <p>908-820-4184</p>
 
                                 <p style={{fontWeight: 'bold', marginBottom: '0'}}>Martin Ferreiro</p>
                                 <p style={{marginBottom: '0'}}>Apprentice of Weights & Measures</p>
                                 <p style={{marginBottom: '0'}}>Email: mferreiro@eliabethnj.org</p>
-                                <p style={{marginBottom: '0'}}>908-820-4184</p>
+                                <p>908-820-4184</p>
                             </div>
                 </div>
                 <div className="sidebar" style={style.sidebar}>
                     <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#pubNot'>Public Notices</a></h6>
+                    <hr/>
                     <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#RFQP'>PRFQs/RFPs</a></h6>
+                    <hr/>
                     <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#WM'>Weights & Measures</a></h6>
+                    <hr/>
                 </div>
           </div>
         )
@@ -105,7 +110,7 @@ const style = {
       },
       sidebar: {
         width: '200px',
-        height: '25vh',
+        height: '100%',
         position: '-webkit-sticky',
         position: 'sticky',
         top: '0',

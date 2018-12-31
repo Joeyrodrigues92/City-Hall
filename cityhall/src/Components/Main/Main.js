@@ -5,6 +5,8 @@ import Business from '../Busniess';
 import CityHall from '../CityHall';
 import Community from '../Community';
 import Service from '../Service';
+import Vital from '../Vital';
+import ChRoute from '../ChRoute';
 
 
 class Main extends Component{
@@ -16,7 +18,7 @@ class Main extends Component{
                 <Switch>
                     <Route exact path='/' component={About}/>
                     <Route path='/Business' component={Business}/>
-                    <Route path='/City-Hall' component={CityHall}/>
+                    <Route path='/City-Hall' component={ChRoute}/>
                     <Route path='/Community' component={Community}/>
                     <Route path='/Service' component={Service}/>
                 </Switch>               

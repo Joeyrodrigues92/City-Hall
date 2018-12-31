@@ -10,15 +10,18 @@ class CityHall extends Component{
 
     render(){
         return (
-            <div>
-         {/* <div class="wrapper" style={style.wrapper}> */}
-        <Vital />
-            {/* <div className="main" style={style.main}>
+         <div class="wrapper" style={style.wrapper}>
+            <div className="main" style={style.main}>
                 <Container>
                     <Row>
                         <Col>
+                            <h1>City Hall</h1>
+                        </Col>
+                    </Row>
+                    <hr />
+                    <Row>
+                        <Col style={{textAlign: 'center', marginBottom: '20px'}}>
                             <h2>Council Members</h2>
-                           <hr />
                         </Col>
                     </Row>
                         <div id='council'>
@@ -26,12 +29,12 @@ class CityHall extends Component{
                         </div>
                     <Row>
                         <Col>
-                            <h2>Departments</h2>
+                            <h2 id='depart'>Departments</h2>
                            <hr />
                         </Col>
                     </Row>
                     <Row>
-                        <Col id='depart'>
+                        <Col>
                             <Departments />
                         </Col>
                     </Row>
@@ -39,31 +42,31 @@ class CityHall extends Component{
             </div>
             <div className="sidebar" style={style.sidebar}>
               
-                    <Link to='#council'><h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}>Council</h6></Link>
-                    <Link to='#depart'><h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}>Departments</h6></Link> */}
+                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#council'>Council</a></h6>
+                    <hr/>
+                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#depart'>Departments</a></h6>
                     {/* renders vital stats compts */}
-                    {/* <Link to={`${this.props.match.url}/VitalStats`}>Vital</Link> */}
-
-                    {/* <a href='https://library.municode.com/nj/elizabeth/codes/code_of_ordinances' style={style.attractionsButton}><h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}>Ordinaces</h6></a>
-
+                    <hr/>
+                    <Link to={`${this.props.match.url}/VitalStats`}><h6 style={{fontWeight: 'bold'}}>Vital Statistics</h6></Link>
+                    <hr />
+                    <a href='https://library.municode.com/nj/elizabeth/codes/code_of_ordinances' style={style.attractionsButton}><h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}>Ordinaces</h6></a>
+                    <hr/>
            
             </div>
-
-            <Route path={`${this.props.match.path}/VitalStats`} component={Vital} /> */}
         </div>
         )
     }
 };
 
 const style = {
-wrapper: {
+    wrapper: {
         display: 'flex',
         backgroundColor: '#ccc',
         fontFamily: 'sans-serif',
         padding: '10px'
       },
       main: {
-        width: '850px',
+        width: '950px',
         height: '100%',
         border: '2px solid black',
         padding: '15px',
@@ -71,7 +74,7 @@ wrapper: {
       },
       sidebar: {
         width: '200px',
-        height: '25vh',
+        height: '100%',
         position: '-webkit-sticky',
         position: 'sticky',
         top: '0',

@@ -49,7 +49,7 @@ class Council extends Component{
                         <Col>
                             <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Carlos Cedeño</h6>
                             <p style={{fontSize: '13px', marginBottom: '0'}}>4th Ward</p>
-                            <p style={{fontSize: '13px'}}>08.353.1231; councilmancedeno@gmail.com</p>
+                            <p style={{fontSize: '13px'}}>908.353.1231; councilmancedeno@gmail.com</p>
                         </Col>
                         <Col style={{width: '100px'}}>
                             <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>William Gallman, Jr.</h6>
@@ -61,7 +61,7 @@ class Council extends Component{
                         <Col>
                             <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Frank O. Mazza</h6>
                             <p style={{fontSize: '13px', marginBottom: '0'}}>6th Ward</p>
-                            <p style={{fontSize: '13px'}}>9908.351.5775; francomazza2004@yahoo.com</p>
+                            <p style={{fontSize: '13px'}}>908.351.5775; francomazza2004@yahoo.com</p>
                         </Col>
                         <Col>
                             <div style={{ padding: '1px'}}>

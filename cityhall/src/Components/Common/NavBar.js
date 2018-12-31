@@ -14,7 +14,7 @@ class NavBar extends Component{
                 <Link to='/Business'><Button style={style.navButton}>Business</Button></Link>
                 <Link to='/City-Hall'><Button style={style.navButton}>City Hall</Button></Link>
                 <Link to='/Community'><Button style={style.navButton}>Community</Button></Link>
-                <Link to='/Service'><Button style={style.navButton}>Service</Button></Link>
+                <Link to='/Service'><Button style={style.navButton}>Services</Button></Link>
             </div>
         )
     }
