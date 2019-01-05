@@ -317,14 +317,14 @@ class Vital extends Component {
 const style = {
     wrapper: {
         display: 'flex',
-        backgroundColor: '#ccc',
+        backgroundColor: 'white',
         fontFamily: 'sans-serif',
         padding: '10px'
       },
       main: {
         width: '950px',
         height: '100%',
-        border: '2px solid black',
+        // border: '2px solid black',
         padding: '15px',
         backgroundColor: '#fff'
       },

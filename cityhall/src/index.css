@@ -12,3 +12,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+body h1 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body h6{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body h2{
+  font-family: 'Ubuntu', sans-serif;
+}

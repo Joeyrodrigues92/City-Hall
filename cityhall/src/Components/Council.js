@@ -63,13 +63,13 @@ class Council extends Component{
                             <p style={{fontSize: '13px', marginBottom: '0'}}>6th Ward</p>
                             <p style={{fontSize: '13px'}}>908.351.5775; francomazza2004@yahoo.com</p>
                         </Col>
-                        <Col>
+                        {/* <Col>
                             <div style={{ padding: '1px'}}>
                                 <h5 style={{color: 'red'}}>Council Meeting Dates</h5>
                                 <p>No meetings scheduled.</p>
                                 <hr/>
                             </div>
-                        </Col>
+                        </Col> */}
                     </Row>
             </div>
         )

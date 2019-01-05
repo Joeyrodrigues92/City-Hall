@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col} from 'reactstrap';
+import GarbageBro from '../PDF/GarbageBro.pdf';
 
 class Service extends Component{
 
@@ -9,11 +10,19 @@ class Service extends Component{
                 <div className="main" style={style.main}>
                     <Container>
                     <Row>
-                            <Col>
+                            <Col style={{textAlign: 'center'}}>
                                 <h1>Services</h1>
                             </Col>
                         </Row>
                         <hr/>
+                        <Row>
+                        <Row>
+                            <Col>
+                                {/* <h2 id='garbage'>2019 Garbage and Recycling Brochure</h2> */}
+                                <a href={GarbageBro}><h2 id='garbage'>2019 Garbage and Recycling Brochure</h2></a>
+                            </Col>
+                        </Row>
+                        </Row>
                         <Row>
                             <Col>
                                 <h2 id='app'>Applications</h2>
@@ -25,11 +34,6 @@ class Service extends Component{
                                     <li><a href=''>GOV Pilot GIS Maps</a></li>
                                     <p>GOV Pilot is available to download from the Google Play Store.</p>
                                 </ul>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col>
-                                <h2 id='garbage'>2019 Garbage and Recycling Brochure</h2>
                             </Col>
                         </Row>
                         <hr />
@@ -107,15 +111,15 @@ class Service extends Component{
                     </Container>
                 </div>            
             <div className="sidebar" style={style.sidebar}>
-                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a href='#app'>Applications</a></h6>
+                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px'}}><a style={{color: 'black'}} href='#app'>Applications</a></h6>
                 <hr/>
-                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a href='#garbage'>Garbage & Recycling Brochure</a></h6>
+                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a style={{color: 'black'}}  href='#garbage'>Garbage & Recycling Brochure</a></h6>
                 <hr/>
-                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a href='#emip'>Elizabeth Municipal ID Program</a></h6>
+                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a style={{color: 'black'}}  href='#emip'>Elizabeth Municipal ID Program</a></h6>
                 <hr />
-                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a href='#aging'>Office on Aging</a></h6>
+                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a style={{color: 'black'}}  href='#aging'>Office on Aging</a></h6>
                 <hr/>
-                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a href='#youth'>Office of Youth</a></h6>
+                <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a style={{color: 'black'}}  href='#youth'>Office of Youth</a></h6>
                 <hr/>
             </div>
         </div>
@@ -126,14 +130,13 @@ class Service extends Component{
 const style = {
     wrapper: {
         display: 'flex',
-        backgroundColor: '#ccc',
+        backgroundColor: 'white',
         fontFamily: 'sans-serif',
         padding: '10px'
       },
       main: {
         width: '950px',
         height: '100%',
-        border: '2px solid black',
         padding: '15px',
         backgroundColor: '#fff'
       },

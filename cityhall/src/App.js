@@ -18,7 +18,7 @@ class App extends Component {
           paddingRight: '50px'
           }}>
             <Main />
-            </div>
+          </div>
           <Footer/>
         </div>
     );

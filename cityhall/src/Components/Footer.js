@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
+import { Container, Row, Col, Button } from 'reactstrap';
+import { SocialIcon } from 'react-social-icons';
 
 
 
 
 class Footer extends Component{
-    constructor(props) {
-        super(props);
-    }
-
 
     render(){
         return (
             <div style={style.footer}>
-            <div className='seal-cont'>
-                    <img id='seal' src={require('../Images/COES.jpg')} alt='seal' />
+                <div style={style.social}>
+                    <SocialIcon url="https://www.youtube.com/user/CityofElizabeth" />
+                    <SocialIcon url="https://www.instagram.com/cityofelizabeth/" />
+                    <SocialIcon url="https://www.facebook.com/CityOfElizabethNJ/" />
+                    <SocialIcon url="https://twitter.com/CityofElizabeth" />
                 </div>
             </div>
         )
@@ -21,24 +22,23 @@ class Footer extends Component{
 };
 const style={
     footer:{
-        position: '-webkit-sticky',
-        position: 'sticky',
-        bottom: '0',
+        // position: '-webkit-sticky',
+        // position: 'sticky',
+        // bottom: '0',
         width: '100%',
         height: '80px',
-        borderTop: '2px solid black',
-        background: 'rgb(84,139,190)'
+        borderTop: '1px solid rgb(235,191,83)',
+        background: 'rgb(72,140,126)'
     },
-    sealCont:{
-        width: '300px',
-        height: '200px',
+    social:{
+        // border: '2px solid yellow',
+        width: '225px',
+        height: '100%',
         float: 'right',
-        overflow: 'hidden',
-    },
-    seal:{
-        /* max-width: 100%; */
-        height: 'auto',
-        opacity: '0.1'
+        marginRight: '100px',
+        paddingTop: '10px',
+        display: 'flex',
+        justifyContent: 'space-between'
     }
     
 }

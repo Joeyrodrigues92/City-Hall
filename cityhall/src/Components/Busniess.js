@@ -15,6 +15,12 @@ class Business extends Component{
                 <div className="main" style={style.main}>
                     <Container>
                         <Row>
+                            <Col style={{textAlign: 'center'}}>
+                                <h1>Business</h1>
+                            </Col>
+                        </Row>
+                        <hr/>
+                        <Row>
                             <Col>
                                 <h2 id='pubNot'>Public Notice</h2>
                             </Col>
@@ -97,14 +103,13 @@ class Business extends Component{
 const style = {
     wrapper: {
         display: 'flex',
-        backgroundColor: '#ccc',
+        backgroundColor: 'white',
         fontFamily: 'sans-serif',
         padding: '10px'
       },
       main: {
         width: '950px',
         height: '100%',
-        border: '2px solid black',
         padding: '15px',
         backgroundColor: '#fff'
       },
