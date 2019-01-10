@@ -10,6 +10,9 @@ const img4 = require('../Images/Carosel/4.jpg')
 const img5 = require('../Images/Carosel/5.jpg')
 const img6 = require('../Images/Carosel/6.jpg')
 const img7 = require('../Images/Carosel/7.jpg')
+const img8 = require('../Images/Carosel/8.jpg')
+const img9 = require('../Images/Carosel/9.jpg')
+const img11 = require('../Images/Carosel/11.jpg')
 
 
 class CarouselC extends Component {
@@ -18,9 +21,10 @@ class CarouselC extends Component {
             <Carousel 
             autoPlay={true}
             swipeable={false}
-            interval={3000}
+            interval={10000}
             stopOnHover={false}
             showThumbs={false}
+            showStatus={false}
             >
                 <div>
                     <img src={img1} />
@@ -39,6 +43,15 @@ class CarouselC extends Component {
                 </div>
                 <div>
                     <img src={img7} />
+                </div>
+                <div>
+                    <img src={img8} />
+                </div>
+                <div>
+                    <img src={img9} />
+                </div>
+                <div>
+                    <img src={img11} />
                 </div>
             </Carousel>
         );

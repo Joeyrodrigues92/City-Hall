@@ -1,28 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col} from 'reactstrap';
-import Carousel from 'react-image-carousel';
 import GarbageBro from '../../PDF/GarbageBro.pdf';
 import { SocialIcon } from 'react-social-icons';
 import CarouselC from '../CarouselC';
 import './About.css'
 
 
-const img1 = require('../../Images/Carosel/1.jpg')
-const img3 = require('../../Images/Carosel/3.jpg')
-const img4 = require('../../Images/Carosel/4.jpg')
-const img5 = require('../../Images/Carosel/5.jpg')
-const img6 = require('../../Images/Carosel/6.jpg')
-const img7 = require('../../Images/Carosel/7.jpg')
-
-let images = [
-    img1,
-    img3,
-    img4,
-    img5,
-    img6,
-    img7,
-];
 
 class About extends Component{
     render(){
