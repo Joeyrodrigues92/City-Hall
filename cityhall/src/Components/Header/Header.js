@@ -4,28 +4,6 @@ import NavBar from '../Common/NavBar';
 
 
 class Header extends Component{
-    constructor(props) {
-        super(props);
-    }
-
-    // componentDidMount() {
-    //     window.addEventListener("scroll", this.resizeHeaderOnScroll);
-    //   }
-    //   resizeHeaderOnScroll() {
-    //     const distanceY = window.pageYOffset || document.documentElement.scrollTop,
-    //       shrinkOn = 200,
-    //       headerEl = document.getElementById("header-container");
-    
-    //     if (distanceY > shrinkOn) {
-    //       headerEl.classList.add("smaller");
-    //     } else {
-    //       headerEl.classList.remove("smaller");
-    //     }
-    //   }
-
-
-
-
 
     render(){
         return (

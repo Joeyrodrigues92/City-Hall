@@ -23,7 +23,7 @@ class Council extends Component{
                     <Row>
                         <Col>
                             <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Manny Grova, Jr.</h6>
-                            <p style={{fontSize: '13px', marginBottom: '0'}}>Council President</p>
+                            <p style={{fontSize: '13px', marginBottom: '0'}}>Councilman-At-Large</p>
                             <p style={{fontSize: '13px'}}>908.353.5599; mgrova@msgld.com</p>
                         </Col>
                         <Col style={{paddingRight:'0px'}}>
@@ -53,7 +53,7 @@ class Council extends Component{
                         </Col>
                         <Col style={{width: '100px'}}>
                             <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>William Gallman, Jr.</h6>
-                            <p style={{fontSize: '13px', marginBottom: '0'}}>5th Ward</p>
+                            <p style={{fontSize: '13px', marginBottom: '0'}}>Council President</p>
                             <p style={{fontSize: '13px'}}>908.289.7552; cwgallman@yahoo.com</p>
                         </Col>
                     </Row>
@@ -63,13 +63,6 @@ class Council extends Component{
                             <p style={{fontSize: '13px', marginBottom: '0'}}>6th Ward</p>
                             <p style={{fontSize: '13px'}}>908.351.5775; francomazza2004@yahoo.com</p>
                         </Col>
-                        {/* <Col>
-                            <div style={{ padding: '1px'}}>
-                                <h5 style={{color: 'red'}}>Council Meeting Dates</h5>
-                                <p>No meetings scheduled.</p>
-                                <hr/>
-                            </div>
-                        </Col> */}
                     </Row>
             </div>
         )

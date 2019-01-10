@@ -1,0 +1,40 @@
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+
+#button{
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 105px;
+    box-shadow: '2px 2px 0 0 black';
+    opacity: 0.8;
+    margin-left: 15px;
+}
+.dropDown{
+    visibility: hidden
+}
+
+
+
+@media screen and (max-width: 600px) {
+     .NavBar{
+        visibility: hidden;
+    } 
+    .dropDown{
+        visibility: visible;
+        position: absolute;
+        top: 30px;
+        right: 100px;
+        background-color: white;
+    }
+    #button{
+        height: 40px;
+        width: 100px;
+    }
+}

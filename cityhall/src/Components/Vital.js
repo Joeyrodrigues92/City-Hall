@@ -304,11 +304,11 @@ class Vital extends Component {
             </Container>
             </div>
             <div className="sidebar" style={style.sidebar}>
-                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a href='#infoApp'>Information & Applications</a></h6>
+                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', marginBottom:'0px' }}><a style={{color: 'black'}} href='#infoApp'>Information & Applications</a></h6>
                     <hr/>
-                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#nongene'>Non-Genealogical Records</a></h6>
+                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a style={{color: 'black'}} href='#nongene'>Non-Genealogical Records</a></h6>
                     <hr/>
-                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#genealogical'>Genealogical Records</a></h6>
+                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a style={{color: 'black'}} href='#genealogical'>Genealogical Records</a></h6>
                 </div>
         </div>
     );

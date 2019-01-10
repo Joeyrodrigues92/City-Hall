@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Container, Row, Col} from 'reactstrap';
 import GarbageBro from '../PDF/GarbageBro.pdf';
+import ZoneMap from '../PDF/zone.pdf';
+import IosImg from '../Images/appstore.png';
+import DroidImg from '../Images/google.jpg';
 
 class Service extends Component{
 
@@ -16,24 +19,21 @@ class Service extends Component{
                         </Row>
                         <hr/>
                         <Row>
-                        <Row>
-                            <Col>
-                                {/* <h2 id='garbage'>2019 Garbage and Recycling Brochure</h2> */}
-                                <a href={GarbageBro}><h2 id='garbage'>2019 Garbage and Recycling Brochure</h2></a>
-                            </Col>
-                        </Row>
-                        </Row>
-                        <Row>
                             <Col>
                                 <h2 id='app'>Applications</h2>
                                 <ul>
-                                    <li><a href=''>Eliz Protects (Dog License)</a></li>
-                                    <li><a href=''>Eliz Recycle(Recycle Coach)</a></li>
+                                    <li><a href='https://main.govpilot.com/web/public/4b6784e4-0bc.html?id=0&uid=7414&pu=1&ust=NJ&ts=Thu%20Jun%2007%202018%2016:33:16%20GMT-0400%20(Eastern%20Daylight%20Time)'>Eliz Protects (Dog License)</a></li>
+                                    <li><a href='https://solutions.recyclecoach.com/'>Eliz Recycle(Recycle Coach)</a></li>
                                     <p>Available to download from the Google Play Store and App store</p>
-                                    <li><a href=''>Eliz Zoning Map</a></li>
-                                    <li><a href=''>GOV Pilot GIS Maps</a></li>
-                                    <p>GOV Pilot is available to download from the Google Play Store.</p>
+                                    <a href='https://itunes.apple.com/us/app/recycle-coach/id1071714967?mt=8'><img style={{height: '50px', width:'150px'}} src={IosImg}/></a>
+                                    <a href='https://play.google.com/store/apps/details?id=mobi.recyclecoach.worldster.pack&hl=en_CA'><img style={{height: '50px', width:'100px'}} src={DroidImg}/></a>
+                                    <li><a href={ZoneMap}>Eliz Zoning Map</a></li>                                
                                 </ul>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col>
+                                <a href={GarbageBro}><h5 id='garbage'>2019 Garbage and Recycling Brochure</h5></a>
                             </Col>
                         </Row>
                         <hr />

@@ -1,23 +1,16 @@
 .header-container {
-    margin: 0 auto;
     width: 100%;
     height: 110px;
     background:rgb(72,140,126);
     border-bottom: 1px solid rgb(235,191,83);
-    /* ---------- */
-  /* position: fixed; 
-  top: 0; 
-  transition: 0.2s; */
-
-
   }
 
+
 .header-text{
-    /* border: 2px solid black; */
     width: 270px;
     height: 90px;
     position: absolute;
-    left: 0;
+    left: 15px;
     top: 8px;
 }
 
@@ -46,7 +39,7 @@
 .seal-cont{
     width: 100px;
     height: 100px;
-    margin-left: 275px;
+    margin-left: 300px;
     /* overflow: hidden; */
 }
 
@@ -55,5 +48,26 @@
     height: 100px;
     margin-top: 5px
   }
+
+
+
+
+    /* ---- Media Q ---- */
+    @media screen and (max-width: 600px) {
+      .header-container {
+        width: 100%;
+      }
+      #seal{
+        height: 90px;
+        width: 90px;
+      }
+      .seal-cont{
+        margin-left: 10px; 
+    }
+      .header-text{
+        visibility: hidden
+      }
+    }
+    /*--------*/
 
 

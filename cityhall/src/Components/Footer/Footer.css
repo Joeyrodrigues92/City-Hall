@@ -1,0 +1,41 @@
+.footer-div{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    border-top: 1px solid rgb(235,191,83);
+    background: rgb(72,140,126);
+}
+
+.social-div{
+    width: 225px;
+    height: 100%;
+    float: right;
+    margin-right: 100px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    margin-left: 20px;
+    margin-top: 35px;
+    width: 330px
+}
+
+
+    /* ---- Media Q ---- */
+    @media screen and (max-width: 600px) {
+        .footer-div{
+            display: flex;
+            flex-direction:column;
+            width: 100%;
+            height: 100px;
+      }
+      .social-div{
+          margin: auto;
+      }
+      .copyright{
+        margin: auto;
+      }
+    }
+      /*--------*/

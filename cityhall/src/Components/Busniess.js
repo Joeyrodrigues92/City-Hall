@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import { Link } from "react-router-dom";
-import { Button, Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
+import  Budget from '../PDF/budget.pdf';
+import  TaxSale from '../PDF/taxsale17.pdf';
+import OPRA from '../PDF/OPRA.pdf';
+import PublicNotImg from '../Images/PN.jpg';
 
 class Business extends Component{
     constructor(props) {
@@ -11,7 +14,7 @@ class Business extends Component{
 
     render(){
         return (
-            <div class="wrapper" style={style.wrapper}>
+            <div className="wrapper" style={style.wrapper}>
                 <div className="main" style={style.main}>
                     <Container>
                         <Row>
@@ -28,10 +31,14 @@ class Business extends Component{
                         <Row>
                             <Col>
                                 <ul>
-                                    <li><a href=''>CLICK HERE FOR THE ELIZABETH TAX SALE LIST</a></li>
-                                    <li><a href=''>OPRA Request Form</a></li>
-                                    <li><a href=''>GOV Pilot GIS Maps</a></li>
+                                    <li><a href={Budget} target='_blank'>Introduced State Fiscal Year Budget</a></li>
+                                    <li><a href={TaxSale} target='_blank'>Elizabeth Tax Sale List (2017)</a></li>
+                                    <li><a href={OPRA}>OPRA Request Form</a></li>
+                                    <li><a href='https://main.govpilot.com/web/?id=157&ust=NJ'>GOV Pilot GIS Maps</a></li>
                                 </ul>
+                            </Col>
+                            <Col>
+                                <img  style={{height:'200px', width: '200px'}} src={PublicNotImg}/>
                             </Col>
                         </Row>
                         <hr/>
@@ -88,11 +95,11 @@ class Business extends Component{
                             </div>
                 </div>
                 <div className="sidebar" style={style.sidebar}>
-                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#pubNot'>Public Notices</a></h6>
+                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a style={{color: 'black'}} href='#pubNot'>Public Notices</a></h6>
                     <hr/>
-                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#RFQP'>PRFQs/RFPs</a></h6>
+                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a style={{color: 'black'}} href='#RFQP'>PRFQs/RFPs</a></h6>
                     <hr/>
-                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a href='#WM'>Weights & Measures</a></h6>
+                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a style={{color: 'black'}} href='#WM'>Weights & Measures</a></h6>
                     <hr/>
                 </div>
           </div>
