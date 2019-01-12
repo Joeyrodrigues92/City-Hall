@@ -52,33 +52,5 @@ class NavBar extends Component{
     }
 }
 
-// const style = {
-//     navBar: {
-//         display: 'flex',
-//         flexDirection: 'row',
-//         width: '500px',
-//         position: 'absolute',
-//         top: '15px',
-//         right: '0px'
-//     },
-//     navButton:{
-//         backgroundColor: 'white',
-//         color: 'black',
-//         height: '60px',
-//         width: '105px',
-//         boxShadow: '2px 2px 0 0 black',
-//         opacity: 0.8,
-//         marginLeft: '15px'
-//     },
-    // attractionsButton:{
-    //     backgroundColor: 'white',
-    //     color: 'black',
-    //     height: '60px',
-    //     width: '105px',
-    //     boxShadow: '2px 2px 0 0 black',
-    //     opacity: 0.8,
-    //     paddingTop: '18px'
-    // }
-//}
 export default NavBar ;
 

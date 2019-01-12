@@ -33,7 +33,8 @@
 .socialDiv{
     display: flex;
      flex-direction:row;
-     justify-content: space-evenly
+     justify-content: space-evenly;
+     /* margin-top: auto 0; */
 }
 
 @media screen and (max-width: 600px) { 

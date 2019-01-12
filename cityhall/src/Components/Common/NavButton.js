@@ -15,7 +15,7 @@ class NavButton extends Component{
     
         return (
             <div>
-                <Button color="primary">primary</Button>
+                <a style={style.button}>primary</a>
 
             </div>
         )
@@ -24,12 +24,12 @@ class NavButton extends Component{
 
 const style ={
     button:{
-        backgroundColor: 'white',
-        color: 'black',
+        backgroundColor: rgb(66,140,127),
+        color: 'blue',
         height: '90px', 
         margin: '5px',  
         boxShadow: 
-        '2px 2px 0 0 black',
+        '100px 2px 0 0 black',
         opacity: 0.8,
         width: '105px'
 

@@ -8,12 +8,13 @@
 }
 
 #button{
-    background-color: white;
-    color: black;
+    background-color: rgb(66,140,127);
+    /* color: black; */
     height: 60px;
     width: 105px;
-    box-shadow: '2px 2px 0 0 black';
-    opacity: 0.8;
+    border: 0px solid rgb(66,140,127);
+    /* box-shadow: '2px 2px 0 0 black'; */
+    /* opacity: 0.8; */
     margin-left: 15px;
 }
 .dropDown{
