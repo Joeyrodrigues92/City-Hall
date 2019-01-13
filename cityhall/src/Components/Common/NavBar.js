@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import { Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import './NavBar.css';
-
+import NavStack from '../../Images/triplestack.png';
 
 // gallman concil President
 // grova council at large
@@ -29,8 +29,9 @@ class NavBar extends Component{
             <div>
                 <div className='dropDown'>
                     <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                        <DropdownToggle>
-                            Menu
+                        <DropdownToggle style={{color: 'black', backgroundColor: 'white'}}>
+                            Navigation
+                            <img id='navStack' src={NavStack} style={{height:'30px', width: '30px', marginLeft: '15px'}}></img>
                         </DropdownToggle>
                         <DropdownMenu>
                             <Link to='/'><Button  id='button' >Home</Button></Link>

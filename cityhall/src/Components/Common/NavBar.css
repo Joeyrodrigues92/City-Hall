@@ -9,12 +9,9 @@
 
 #button{
     background-color: rgb(66,140,127);
-    /* color: black; */
     height: 60px;
     width: 105px;
     border: 0px solid rgb(66,140,127);
-    /* box-shadow: '2px 2px 0 0 black'; */
-    /* opacity: 0.8; */
     margin-left: 15px;
 }
 .dropDown{
@@ -37,5 +34,8 @@
     #button{
         height: 40px;
         width: 100px;
+        background-color:white;
+        color: black;
+        border: 1px solid black;
     }
 }
