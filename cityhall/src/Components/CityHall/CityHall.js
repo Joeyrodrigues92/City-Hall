@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
 import { Container, Row, Col } from 'reactstrap';
 import { HashLink as Link } from 'react-router-hash-link';
-import Departments from './Departments';
-import Council from './Council';
-
-import CModal from './CModal';
 import Modal from 'react-modal';
+import Departments from '../Departments';
+import Council from '../Council';
+import CModal from '../CModal';
+import './CityHall.css';
+
 
 
 

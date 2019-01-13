@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import CityHall from './CityHall';
+import CityHall from './CityHall/CityHall';
 import Vital from './Vital';
 import Engineer from './Engineer';
 

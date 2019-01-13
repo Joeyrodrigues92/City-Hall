@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom'
 import About from '../About/About';
 import Business from '../Busniess';
-import CityHall from '../CityHall';
+import CityHall from '../CityHall/CityHall';
 import Community from '../Community';
 import Service from '../Service';
 import Vital from '../Vital';
