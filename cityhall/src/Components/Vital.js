@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import { Container, Row, Col} from 'reactstrap';
 import VRAppEng from '../PDF/AppVitalEng.pdf';
 import VRAppS from '../PDF/AppVitalS.pdf';
-
+import GenRecE from '../PDF/GenealogicalRecE.pdf';
+import GenRecS from '../PDF/GenealogicalRecS.pdf';
+import MLAE from '../PDF/MLAE.docx';
+import MLAS from '../PDF/MLAS.docx';
 
 class Vital extends Component {
 
@@ -48,10 +51,10 @@ class Vital extends Component {
                         Marriage License Information
                         <ul>
                             <li>
-                                <a>Marriage License Application (English</a>
+                                <a href={MLAE}>Marriage License Application (English)</a>
                             </li>
                             <li>
-                                <a>Marriage License Application (Spanish)</a>
+                                <a href={MLAS}>Marriage License Application (Spanish)</a>
                             </li>
                         </ul>
                         How to Request Copies of Genealogical Records
@@ -59,10 +62,10 @@ class Vital extends Component {
                         <p style={{marginBottom: '0px', fontWeight: 'bold'}}>(Beginning May 1848 except May 1870 – Dec 1872 and May 1878 – Dec 1881)</p> 
                         <ul>
                             <li>
-                                <a>Application for Genealogical Records (English)</a>
+                                <a href={GenRecE} target='_blank'>Application for Genealogical Records (English)</a>
                             </li>
                             <li>
-                                <a>Application for Genealogical Records (Spanish)</a>
+                                <a href={GenRecS} target='_blank'>Application for Genealogical Records (Spanish)</a>
                             </li>
                         </ul>
                     </Col>                 
