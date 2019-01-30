@@ -8,7 +8,7 @@ import './About.css'
 
 
 
-class About extends Component{
+class About extends Component{ 
     render(){
         return (
             <div className='cont'>

@@ -33,7 +33,7 @@ class CityHall extends Component{
     
     render(){
         return (
-         <div class="wrapper" style={style.wrapper}>
+         <div className="wrapper" style={style.wrapper}>
             <div className="main" style={style.main}>
                 <Container>
                     <Row>
