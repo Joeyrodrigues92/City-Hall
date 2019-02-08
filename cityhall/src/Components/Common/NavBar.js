@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import { Button, ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { Button, ButtonDropdown, DropdownToggle, DropdownMenu } from 'reactstrap';
 import './NavBar.css';
 import NavStack from '../../Images/triplestack.png';
 
@@ -29,7 +29,7 @@ class NavBar extends Component{
             <div>
                 <div className='dropDown'>
                     <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-                        <DropdownToggle style={{color: 'black', backgroundColor: 'white'}}>
+                        <DropdownToggle style={{color: 'rgb(169,64,41)', backgroundColor: 'white'}}>
                             Navigation
                             <img id='navStack' src={NavStack} style={{height:'30px', width: '30px', marginLeft: '15px'}}></img>
                         </DropdownToggle>

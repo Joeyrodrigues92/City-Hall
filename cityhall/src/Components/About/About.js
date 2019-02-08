@@ -26,10 +26,10 @@ class About extends Component{
 
                                     <p style={{marginBottom: '0px', fontWeight: 'bold'}}>Elizabeth Police Dept.</p>
                                     <p style={{marginBottom: '0px'}}>One Police Plaza Elizabeth, NJ 07201</p>
-                                    <p>(908) 558-2000</p>
+                                    <p>(908) 558-2111</p>
                                     
                                     <p style={{marginBottom: '0px', fontWeight: 'bold'}}>Elizabeth Fire Dept.</p>
-                                    <p style={{marginBottom: '0px'}}>411 Irvingtong Ave.</p>
+                                    <p style={{marginBottom: '0px'}}>411 Irvington Ave.</p>
                                     <p style={{marginBottom: '0px'}}>Elizabeth, NJ 07201</p>
                                     <p>(908) 820-2800</p>
                             </Col>

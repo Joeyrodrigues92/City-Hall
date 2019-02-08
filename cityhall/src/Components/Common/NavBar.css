@@ -13,6 +13,7 @@
     width: 105px;
     border: 0px solid rgb(66,140,127);
     margin-left: 15px;
+    color: white
 }
 .dropDown{
     visibility: hidden

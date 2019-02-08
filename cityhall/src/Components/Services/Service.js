@@ -26,8 +26,8 @@ class Service extends Component{
                                     <li><a href='https://main.govpilot.com/web/public/4b6784e4-0bc.html?id=0&uid=7414&pu=1&ust=NJ&ts=Thu%20Jun%2007%202018%2016:33:16%20GMT-0400%20(Eastern%20Daylight%20Time)'>Eliz Protects (Dog License)</a></li>
                                     <li><a href='https://solutions.recyclecoach.com/'>Eliz Recycle(Recycle Coach)</a></li>
                                     <p>Available to download from the Google Play Store and App store</p>
-                                    <a href='https://itunes.apple.com/us/app/recycle-coach/id1071714967?mt=8'><img style={{height: '50px', width:'150px'}} src={IosImg}/></a>
-                                    <a href='https://play.google.com/store/apps/details?id=mobi.recyclecoach.worldster.pack&hl=en_CA'><img style={{height: '50px', width:'100px'}} src={DroidImg}/></a>
+                                    <a href='https://itunes.apple.com/us/app/recycle-coach/id1071714967?mt=8'><img alt='IosImage' style={{height: '50px', width:'150px'}}  src={IosImg}/></a>
+                                    <a href='https://play.google.com/store/apps/details?id=mobi.recyclecoach.worldster.pack&hl=en_CA'><img alt='AndroisImage' style={{height: '50px', width:'100px'}}  src={DroidImg}/></a>
                                     <li><a href={ZoneMap}>Eliz Zoning Map</a></li>                                
                                 </ul>
                             </Col>

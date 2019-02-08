@@ -1,4 +1,7 @@
-
+.cont{
+    height: 500px;
+    overflow: hidden;
+}
 .contact{
     display: flex;
     flex-direction:column;

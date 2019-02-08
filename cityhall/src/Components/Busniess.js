@@ -97,7 +97,7 @@ class Business extends Component{
                 <div className="sidebar" style={style.sidebar}>
                     <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a style={{color: 'black'}} href='#pubNot'>Public Notices</a></h6>
                     <hr/>
-                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a style={{color: 'black'}} href='#RFQP'>PRFQs/RFPs</a></h6>
+                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a style={{color: 'black'}} href='#RFQP'>RFQs/RFPs</a></h6>
                     <hr/>
                     <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a style={{color: 'black'}} href='#WM'>Weights & Measures</a></h6>
                     <hr/>

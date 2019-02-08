@@ -335,7 +335,7 @@ const style = {
         width: '200px',
         height: '100%',
         position: '-webkit-sticky',
-        position: 'sticky',
+        // position: 'sticky',
         top: '0',
         marginLeft: '20px',
         paddingLeft: '5px',

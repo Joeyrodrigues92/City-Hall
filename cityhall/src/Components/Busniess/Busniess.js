@@ -6,10 +6,6 @@ import OPRA from '../../PDF/OPRA.pdf';
 import PublicNotImg from '../../Images/PN.jpg';
 
 class Business extends Component{
-    constructor(props) {
-        super(props);
-
-    }
 
 
     render(){
@@ -38,7 +34,7 @@ class Business extends Component{
                                 </ul>
                             </Col>
                             <Col>
-                                <img  style={{height:'200px', width: '200px'}} src={PublicNotImg}/>
+                                <img alt='PublicNot'  style={{height:'200px', width: '200px'}} src={PublicNotImg}/>
                             </Col>
                         </Row>
                         <hr/>
@@ -97,7 +93,7 @@ class Business extends Component{
                 <div className="sidebar" style={style.sidebar}>
                     <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a style={{color: 'black'}} href='#pubNot'>Public Notices</a></h6>
                     <hr/>
-                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a style={{color: 'black'}} href='#RFQP'>PRFQs/RFPs</a></h6>
+                    <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a style={{color: 'black'}} href='#RFQP'>R</a></h6>
                     <hr/>
                     <h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white' }}><a style={{color: 'black'}} href='#WM'>Weights & Measures</a></h6>
                     <hr/>
