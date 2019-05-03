@@ -1,26 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css?family=Caveat|ZCOOL+XiaoWei');
+
 .header-container {
     width: 100%;
-    height: 110px;
+    height: 150px;
     background:rgb(72,140,126);
+    position: relative;
   }
+
+  .textSeal{
+    width: 375px;
+    height: 143px;
+    position: absolute;
+    top: auto;
+    bottom: 7px;
+    right: 0px;
+    left: 40px;
+  }
+
 
 
 .header-text{
     width: 270px;
     height: 90px;
-    position: absolute;
-    left: 15px;
-    top: 8px;
+    position: relative;
+    left: 100px;
+    top: 30px;
     color: rgb(215,174,88);
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 #font-top {
     font-family: 'Caveat', cursive;
-    font-size: 25px;
+    font-size: 30px;
     width: 120px;
     margin-left: 100px;
     line-height: 80%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 
 #city-name {
@@ -28,7 +43,9 @@
     font-size: 70px;
     line-height: 70%;
     width: 265px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
+
 #found{
     font-family: 'Caveat', cursive;
     font-size: 15px;
@@ -37,23 +54,23 @@
     margin: auto;
   }
 
-.seal-cont{
-    width: 100px;
-    height: 100px;
-    margin-left: 300px;
-    /* overflow: hidden; */
-}
+  .sealCont{
+    position: relative;
+    bottom: 55px;
+    width:90px;
+  }
+
 
 #seal{
-    /* max-width: 100%; */
-    height: 100px;
-    margin-top: 5px
-  }
+  height: 90px;
+  width: 90px;
+}
 
 
 
 
     /* ---- Media Q ---- */
+
     @media screen and (max-width: 600px) {
       .header-container {
         width: 100%;
@@ -62,8 +79,11 @@
         height: 90px;
         width: 90px;
       }
-      .seal-cont{
-        margin-left: 10px; 
+      .sealCont{ 
+        bottom: 73px;
+    }
+    .textSeal{
+      width:200px;
     }
       .header-text{
         visibility: hidden

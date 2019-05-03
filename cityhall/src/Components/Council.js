@@ -26,7 +26,7 @@ class Council extends Component{
                             <p style={{fontSize: '13px', marginBottom: '0'}}>Councilman-At-Large</p>
                             <p style={{fontSize: '13px'}}>908.353.5599; mgrova@msgld.com</p>
                         </Col>
-                        <Col style={{paddingRight:'0px'}}>
+                        <Col style={{paddingRight:'0px', paddingLeft: '0'}}>
                             <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Carlos Torres</h6>
                             <p style={{fontSize: '13px', marginBottom: '0'}}>1st Ward</p>
                             <p style={{fontSize: '13px'}}>908.370.5214; councilmantorres@gmail.com</p>
@@ -37,7 +37,7 @@ class Council extends Component{
                         <Col>
                             <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Nelson Gonzalez</h6>
                             <p style={{fontSize: '13px', marginBottom: '0'}}>2nd Ward</p>
-                            <p style={{fontSize: '13px'}}>908.353.5599; mgrova@msgld.com</p>
+                            <p style={{fontSize: '13px'}}>908.353.5823; gonzalez.ward2@gmail.com</p>
                         </Col>
                         <Col>
                             <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Kevin Kiniery</h6>

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col} from 'reactstrap';
-import GarbageBro from '../../PDF/GarbageBro.pdf';
 import { SocialIcon } from 'react-social-icons';
+import GarbageBro from '../../PDF/GarbageBro.pdf';
 import CarouselC from '../CarouselC';
 import './About.css'
 
+const tourBadge = require('../../Images/tour.jpg')
 
 
 class About extends Component{ 
@@ -16,7 +17,7 @@ class About extends Component{
                     <Row className='main-wrapper'>
                             <CarouselC/>
                             <Col  className='contact'>
-                                {/* Contact */}
+                                <div>
                                     <h2>Contact</h2>
                                     <p id='contact-title'>City Hall</p> 
                                     <p style={{marginBottom: '0px'}}>50 Winfield Scott Plaza</p> 
@@ -32,6 +33,7 @@ class About extends Component{
                                     <p style={{marginBottom: '0px'}}>411 Irvington Ave.</p>
                                     <p style={{marginBottom: '0px'}}>Elizabeth, NJ 07201</p>
                                     <p>(908) 820-2800</p>
+                                </div>
                             </Col>
                             <Col  className='quick-links'>
                                 {/* Quick Links */}
@@ -48,9 +50,18 @@ class About extends Component{
                                         <SocialIcon url="https://twitter.com/CityofElizabeth" />
                                     </div>
                             </Col>
-                            {/* </div> */}
                     </Row>
-                </Container>
+                    <Row className='main-second'>
+                        <Col>
+                            <h2 style={{textAlign: 'center'}}>It's that time of the year again for the <span style={{color: 'green'}}>16th Annual Tour de Elizabeth</span></h2>
+                            <h5 style={{textAlign: 'center'}}><a href=' http://groundworkelizabeth.org/wp-content/uploads/2019/03/2019Reg-TourdeELIZ-form-1.pdf'>Click Here To Fill An Application</a></h5>
+                            <h5 style={{textAlign: 'center'}}><a href='https://tourdeeliz16.brownpapertickets.com/'>Click Here To Purchase Ticket Online</a></h5>
+                        </Col>
+                        <Col id='logo'>    
+                            <img src={tourBadge} id='tour'/>
+                        </Col>
+                    </Row>
+                    </Container>
             </div>
 
         )

@@ -9,7 +9,7 @@ class Departments extends Component{
             <div>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Accounts and Control</h6>
                 <p style={{fontSize: '13px'}}>Anthony Zengaro, Chief Financial Officer, 908-820-4097; AZengaro@ElizabethNJ.org</p>
-                <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Alcoholic Beverage Contro</h6>
+                <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Alcoholic Beverage Control</h6>
                 <p style={{fontSize: '13px'}}>Giovanna Rua, ABC Secretary, 908-820-4145</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Ambulance Service Bureau</h6>
                 <p style={{fontSize: '13px'}}>Jerusa Lima, Data Entry Machine Operator Supervisor, 908-820-4098</p>
@@ -20,7 +20,7 @@ class Departments extends Component{
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Business Administration</h6>
                 <p style={{fontSize: '13px'}}>Bridget Anderson, Business Administrator, 908-820-4280; BAnderson@ElizabethNJ.org</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Central License Division</h6>
-                <p style={{fontSize: '13px'}}>Clara Goodrich, Chief License Inspector, 908-820-4178</p>
+                <p style={{fontSize: '13px'}}>Clara Goodridge, Chief License Inspector, 908-820-4178</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>City Clerk</h6>
                 <p style={{fontSize: '13px'}}>Yolanda Roberts, 908-820-4131; YRoberts@ElizabethNJ.org</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>City Yard</h6>
@@ -61,8 +61,6 @@ class Departments extends Component{
                 <p style={{fontSize: '13px'}}>Lou Velez, Supervisor, 908-820-4176</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Marina</h6>
                 <p style={{fontSize: '13px'}}>Mark Sompel, Supervisor, 908-820-4296</p>
-                <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Mayor's Office</h6>
-                <p style={{fontSize: '13px'}}>J. Christian Bollwage, Mayor, 908-820-4170; Webmaster@ElizabethNJ.org</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Mayor's Office</h6>
                 <p style={{fontSize: '13px'}}>J. Christian Bollwage, Mayor, 908-820-4170; Webmaster@ElizabethNJ.org</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Municipal Court</h6>

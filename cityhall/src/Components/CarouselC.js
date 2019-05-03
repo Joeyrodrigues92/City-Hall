@@ -25,6 +25,7 @@ class CarouselC extends Component {
             stopOnHover={false}
             showThumbs={false}
             showStatus={false}
+            dynamicHeight={756}
             >
                 <div>
                     <img src={img1} />

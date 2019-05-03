@@ -33,9 +33,9 @@ class CityHall extends Component{
     
     render(){
         return (
-         <div className="wrapper" style={style.wrapper}>
-            <div className="main" style={style.main}>
-                <Container>
+         <div className="wrapper">
+            <div className="main">
+                <div className='container'>
                     <Row>
                         <Col style={{textAlign: 'center'}}>
                             <h1>City Hall</h1>
@@ -97,56 +97,40 @@ class CityHall extends Component{
                             <Departments />
                         </Col>
                     </Row>
-                </Container>
+                </div>
             </div>
-                <div style={style.sidebar}>
-                <h6 style={{fontWeight: 'bold', backgroundColor:'white'}}><a style={{color: 'black'}} href='#overview'>Overview</a></h6>
-                    <hr/>
-                    <h6 style={{fontWeight: 'bold', backgroundColor:'white'}}><a style={{color: 'black'}} href='#mayor'>Our Mayor</a></h6>
-                    <hr/>
-                    <h6 style={{fontWeight: 'bold', backgroundColor:'white'}}><a style={{color: 'black'}} href='#council'>Council</a></h6>
-                    <hr/>
-                    <h6 style={{fontWeight: 'bold', backgroundColor:'white', color: 'black' }}><a style={{color: 'black'}} href='#depart'>Departments</a></h6>
+                <div className='sidebar'>
+                    <h6 className='headerSix' style={{fontWeight: 'bold', backgroundColor:'white'}}><a style={{color: 'black'}} href='#overview'>Overview</a></h6>
+                        <hr/>
+                    <h6 className='headerSix'><a style={{color: 'black'}} href='#mayor'>Our Mayor</a></h6>
+                        <hr/>
+                    <h6 className='headerSix'><a style={{color: 'black'}} href='#council'>Council</a></h6>
+                        <hr/>
+                    <h6 className='headerSix'><a style={{color: 'black'}} href='#depart'>Departments</a></h6>
                     {/* renders vital stats compts */}
-                    <hr/>
-                    <Link to={`${this.props.match.url}/VitalStats`}><h6 style={{fontWeight: 'bold', color: 'black'}}>Vital Statistics</h6></Link>
-                    <hr />
-                    <Link to={`${this.props.match.url}/Engineering`}><h6 style={{fontWeight: 'bold', color: 'black'}}>Engineering</h6></Link>
-                    <hr />
-                    <a href='https://library.municode.com/nj/elizabeth/codes/code_of_ordinances' style={style.attractionsButton}><h6 style={{borderColor: '#ccc', fontWeight: 'bold', backgroundColor:'white', color: 'black' }}>Ordinaces</h6></a>
-                    <hr/>
+                        <hr/>
+                    <Link to={`${this.props.match.url}/VitalStats`}>
+                        <h6 style={{fontWeight: 'bold', color: 'black'}}>
+                            Vital Statistics
+                        </h6>
+                    </Link>
+                        <hr />
+                    <Link to={`${this.props.match.url}/Engineering`}>
+                        <h6 style={{fontWeight: 'bold', color: 'black'}}>
+                            Engineering
+                        </h6>
+                    </Link>
+                        <hr />
+                    <a href='https://library.municode.com/nj/elizabeth/codes/code_of_ordinances'>
+                        <h6 style={{fontWeight: 'bold', color: 'black'}}>
+                            Ordinances
+                        </h6>
+                    </a>
+                        <hr/>
                 </div> 
         </div>
         )
     }
 };
-
-const style = {
-    wrapper: {
-        display: 'flex',
-        backgroundColor: 'white',
-        fontFamily: 'sans-serif',
-        padding: '10px'
-      },
-      main: {
-        width: '950px',
-        height: '100%',
-        padding: '15px',
-        backgroundColor: '#fff'
-      },
-      sidebar: {
-        width: '200px',
-        height: '100%',
-        // position: '-webkit-sticky',
-        position: 'sticky',
-        top: '0',
-        marginLeft: '20px',
-        paddingLeft: '5px',
-        paddingRight: '5px',
-        paddingTop: '30px',
-        border:'2px solid black',
-        backgroundColor: 'white'
-      },
-}
 
 export default CityHall;

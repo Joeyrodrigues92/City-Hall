@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import { Container, Row, Col} from 'reactstrap';
 import GarbageBro from '../../PDF/GarbageBro.pdf';
 import ZoneMap from '../../PDF/zone.pdf';
+import MunID from '../../PDF/MunicipalID.pdf'
 import IosImg from '../../Images/appstore.png';
-import DroidImg from '../../Images/google.jpg';
+import DroidImg from '../../Images/google.png';
 import './Service.css';
 
 class Service extends Component{
@@ -12,8 +13,8 @@ class Service extends Component{
         return (
             <div id="wrapper">
                 <div className="main">
-                    <Container>
-                    <Row>
+                    <Container className='container'>
+                        <Row>
                             <Col style={{textAlign: 'center'}}>
                                 <h1>Services</h1>
                             </Col>
@@ -23,17 +24,19 @@ class Service extends Component{
                             <Col>
                                 <h2 id='app'>Applications</h2>
                                 <ul>
-                                    <li><a href='https://main.govpilot.com/web/public/4b6784e4-0bc.html?id=0&uid=7414&pu=1&ust=NJ&ts=Thu%20Jun%2007%202018%2016:33:16%20GMT-0400%20(Eastern%20Daylight%20Time)'>Eliz Protects (Dog License)</a></li>
-                                    <li><a href='https://solutions.recyclecoach.com/'>Eliz Recycle(Recycle Coach)</a></li>
-                                    <p>Available to download from the Google Play Store and App store</p>
-                                    <a href='https://itunes.apple.com/us/app/recycle-coach/id1071714967?mt=8'><img alt='IosImage' style={{height: '50px', width:'150px'}}  src={IosImg}/></a>
-                                    <a href='https://play.google.com/store/apps/details?id=mobi.recyclecoach.worldster.pack&hl=en_CA'><img alt='AndroisImage' style={{height: '50px', width:'100px'}}  src={DroidImg}/></a>
-                                    <li><a href={ZoneMap}>Eliz Zoning Map</a></li>                                
+                                    <li><a href='https://main.govpilot.com/web/?id=157&ust=NJ' target='_blank'>GOV Pilot GIS Maps</a></li>
+                                    <li><a href='https://main.govpilot.com/web/public/4b6784e4-0bc.html?id=0&uid=7414&pu=1&ust=NJ&ts=Thu%20Jun%2007%202018%2016:33:16%20GMT-0400%20(Eastern%20Daylight%20Time)'>Dog License Application</a></li>
+                                    <li><a href='https://main.govpilot.com/web/public/e54331af-4bf.html?id=0&uid=7414&pu=1&ust=NJ&ts=Wed%20May%2023%202018%2009:06:43%20GMT-0400%20(Eastern%20Daylight%20Time)'>Report a Concern</a></li>
+                                    <li><a href='https://solutions.recyclecoach.com/'>Recycle Coach</a></li>
                                 </ul>
+                                    <p> Recycle Coach is available to download from the Google Play Store and Apple App Store</p>
+                                    <a href='https://itunes.apple.com/us/app/recycle-coach/id1071714967?mt=8'><img alt='IosImage' src={IosImg}/></a>
+                                    <a href='https://play.google.com/store/apps/details?id=mobi.recyclecoach.worldster.pack&hl=en_CA'><img alt='AndroidImage' src={DroidImg}/></a>                            
                             </Col>
                         </Row>
                         <Row>
                             <Col>
+                                <a href={ZoneMap}><h5 style={{marginTop: '10px'}}>Elizabeth Zoning Map</h5></a>
                                 <a href={GarbageBro}><h5 id='garbage'>2019 Garbage and Recycling Brochure</h5></a>
                             </Col>
                         </Row>
@@ -46,8 +49,8 @@ class Service extends Component{
                                 </p>
                                 <p>For our residents, the EMID program provides increased access to civic and economic services.  The Identification Card can be obtained at the Elizabeth Public Library Main Branch, which is located at 11 Broad Street within the City of Elizabeth.  It is available to all residents of Elizabeth, including but not limited to: immigrants, the homeless as well as the formerly incarcerated and others who may have difficulty in obtaining government-issued identification.</p>
                                 <p>The EMID serves as an official form of photo identification and therefore will be recognized at any public institution within the City of Elizabeth including, but not limited to: schools, the police department and municipal court.  The EMID Program is proud to partner with many local businesses, banks and the Elizabeth Public Library.  In addition, the EMID can be used as a library card.  </p>
-                                <h6>TO VIEW THE BROCHURE IN ENGLISH, <a href=''>CLICK HERE.</a></h6>
-                                <h6>TO VIEW THE BROCHURE IN SPANISH, <a href=''>CLICK HERE.</a></h6>
+                                <h6>TO VIEW THE BROCHURE IN ENGLISH, <a href={MunID} target='_blank'>CLICK HERE.</a></h6>
+
                                 <br/>
                                 <p style={{fontWeight: 'bold', marginBottom: '0px'}}><u>EMID and Elizabeth Public Library Program Scheduling Appointments</u></p>
                                 <p>For more information, please email: emid@elizabethnj.org or call 908-820-4298</p>
@@ -104,9 +107,9 @@ class Service extends Component{
                         </Row>
                         <Row>
                             <Col>
-                                <p style={{marginBottom: '0px'}}>Donald M. Johnson, Supervisor</p>
-                                <p style={{marginBottom: '0px'}}>Phone: (908) 820-4032</p>
-                                <p>Email: djohnson@elizabethnj.org</p>
+                                <p style={{marginBottom: '0px', fontWeight: 'bold'}}>Donald M. Johnson, Supervisor</p>
+                                <p style={{marginBottom: '0px', fontWeight: 'bold'}}>Phone: (908) 820-4032</p>
+                                <p style={{fontWeight: 'bold'}}>Email: djohnson@elizabethnj.org</p>
                             </Col>
                         </Row>
                     </Container>
@@ -128,31 +131,4 @@ class Service extends Component{
     }
 };
 
-// const style = {
-//     wrapper: {
-//         display: 'flex',
-//         backgroundColor: 'white',
-//         fontFamily: 'sans-serif',
-//         padding: '10px'
-//       },
-//       main: {
-//         width: '950px',
-//         height: '100%',
-//         padding: '15px',
-//         backgroundColor: '#fff'
-//       },
-//       sidebar: {
-//         width: '200px',
-//         height: '100%',
-//         position: '-webkit-sticky',
-//         position: 'sticky',
-//         top: '0',
-//         marginLeft: '20px',
-//         paddingLeft: '5px',
-//         paddingRight: '5px',
-//         paddingTop: '30px',
-//         border:'2px solid black',
-//         backgroundColor: 'white'
-//       }
-// }
 export default Service;

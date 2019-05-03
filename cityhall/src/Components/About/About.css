@@ -1,7 +1,7 @@
-.cont{
-    height: 500px;
-    overflow: hidden;
+.main-wrapper{
+    position: relative;
 }
+
 .contact{
     display: flex;
     flex-direction:column;
@@ -40,6 +40,43 @@
      /* margin-top: auto 0; */
 }
 
+.main-second{
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+#tour{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height: 200px;
+    width: 200px;
+}
+
+#logo{
+    border-left: 2px solid black;
+}
+
+
+/* changed to max to min */
+@media screen and (min-width: 1920px){
+    .quick-links{
+        right: 200px;
+    } 
+    .contact{
+        left: 200px;
+    }   
+}
+
+@media screen and (min-width: 1024px){
+    .contact{
+        left: 150px;
+    }
+    .quick-links{
+        right: 150px;
+    }
+}
+
 @media screen and (max-width: 600px) { 
     .quick-links{
         display: flex;
@@ -54,5 +91,11 @@
     }
     .socialDiv{
         visibility: hidden;
+    }
+    .container{
+        width:100%
+    }
+    #logo{
+        border-left: 2px solid white;
     }
 }

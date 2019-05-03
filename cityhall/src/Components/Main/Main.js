@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom'
+import {Switch, Route } from 'react-router-dom'
 import About from '../About/About';
-import Business from '../Busniess';
+import Business from '../Busniess/Busniess';
 import Community from '../Community';
-import Service from '../Service';
+import Service from '../Services/Service';
 import ChRoute from '../ChRoute';
 import './Main.css';
+
 
 
 class Main extends Component{
