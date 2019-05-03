@@ -5,6 +5,11 @@ import ZoneMap from '../../PDF/zone.pdf';
 import MunID from '../../PDF/MunicipalID.pdf'
 import IosImg from '../../Images/appstore.png';
 import DroidImg from '../../Images/google.png';
+import ElizReports from '../../Images/ElizReports.png';
+import GovPilot from '../../Images/govp.png';
+import RecycleCo from '../../Images/rcycleco.png';
+import RecycleLo from '../../Images/recycle.jpg';
+
 import './Service.css';
 
 class Service extends Component{
@@ -23,12 +28,13 @@ class Service extends Component{
                         <Row>
                             <Col>
                                 <h2 id='app'>Applications</h2>
-                                <ul>
-                                    <li><a href='https://main.govpilot.com/web/?id=157&ust=NJ' target='_blank'>GOV Pilot GIS Maps</a></li>
-                                    <li><a href='https://main.govpilot.com/web/public/4b6784e4-0bc.html?id=0&uid=7414&pu=1&ust=NJ&ts=Thu%20Jun%2007%202018%2016:33:16%20GMT-0400%20(Eastern%20Daylight%20Time)'>Dog License Application</a></li>
-                                    <li><a href='https://main.govpilot.com/web/public/e54331af-4bf.html?id=0&uid=7414&pu=1&ust=NJ&ts=Wed%20May%2023%202018%2009:06:43%20GMT-0400%20(Eastern%20Daylight%20Time)'>Report a Concern</a></li>
-                                    <li><a href='https://solutions.recyclecoach.com/'>Recycle Coach</a></li>
-                                </ul>
+                                    <h5><a href='https://main.govpilot.com/web/public/4b6784e4-0bc.html?id=0&uid=7414&pu=1&ust=NJ&ts=Thu%20Jun%2007%202018%2016:33:16%20GMT-0400%20(Eastern%20Daylight%20Time)'><img alt='IosImage' style={{marginRight:'5px'}} src={GovPilot}/>Dog License Application</a></h5>
+                                    <br/>
+                                    <h5><a href='https://main.govpilot.com/web/?id=157&ust=NJ' target='_blank'><img alt='IosImage' style={{marginRight:'5px'}} src={GovPilot}/>GOV Pilot GIS Maps</a></h5>
+                                    <br/>
+                                    <h5><a href='https://main.govpilot.com/web/public/e54331af-4bf.html?id=0&uid=7414&pu=1&ust=NJ&ts=Wed%20May%2023%202018%2009:06:43%20GMT-0400%20(Eastern%20Daylight%20Time)'><img alt='Elizabeth Reports' style={{marginRight:'5px'}} src={ElizReports}></img>Report a Concern</a></h5>
+                                    <br/>
+                                    <h5><a href='https://solutions.recyclecoach.com/'><img alt='Recycle Coach' style={{marginRight:'5px'}} src={RecycleCo}/>Recycle Coach</a></h5>
                                     <p> Recycle Coach is available to download from the Google Play Store and Apple App Store</p>
                                     <a href='https://itunes.apple.com/us/app/recycle-coach/id1071714967?mt=8'><img alt='IosImage' src={IosImg}/></a>
                                     <a href='https://play.google.com/store/apps/details?id=mobi.recyclecoach.worldster.pack&hl=en_CA'><img alt='AndroidImage' src={DroidImg}/></a>                            
@@ -37,7 +43,7 @@ class Service extends Component{
                         <Row>
                             <Col>
                                 <a href={ZoneMap}><h5 style={{marginTop: '10px'}}>Elizabeth Zoning Map</h5></a>
-                                <a href={GarbageBro}><h5 id='garbage'>2019 Garbage and Recycling Brochure</h5></a>
+                                <h5><a href={GarbageBro}><img alt='RcycleLo' style={{marginRight:'5px'}} src={RecycleLo}/>2019 Garbage and Recycling Brochure</a></h5>
                             </Col>
                         </Row>
                         <hr />
