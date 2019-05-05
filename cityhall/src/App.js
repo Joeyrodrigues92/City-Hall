@@ -9,7 +9,7 @@ class App extends Component {
   render() {
 
     return (
-        <div style={{width: '100%', position: 'relative'}}>
+        <div>
           <Header />
             <Main />
           <Footer/>

@@ -94,7 +94,7 @@ class CityHall extends Component{
                     </Row>
                     <Row>
                         <Col>
-                            <Departments />
+                            <Departments/>
                         </Col>
                     </Row>
                 </div>

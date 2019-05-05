@@ -6,6 +6,7 @@
     height: 150px;
     background:rgb(72,140,126);
     position: relative;
+    background-image: url('../../Images/vintage.jpg')
   }
 
   .textSeal{

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col} from 'reactstrap';
 import { SocialIcon } from 'react-social-icons';
 import GarbageBro from '../../PDF/GarbageBro.pdf';
-import CarouselC from '../CarouselC';
+// import CarouselC from '../CarouselC';
 import './About.css'
 
 const tourBadge = require('../../Images/tour.jpg')
@@ -15,25 +15,24 @@ class About extends Component{
             <div className='cont'>
                 <Container>
                     <Row className='main-wrapper'>
-                            <CarouselC/>
+                            {/* <CarouselC/> */}
                             <Col  className='contact'>
-                                <div>
-                                    <h2>Contact</h2>
-                                    <p id='contact-title'>City Hall</p> 
-                                    <p style={{marginBottom: '0px'}}>50 Winfield Scott Plaza</p> 
-                                    <p style={{marginBottom: '0px'}}>Elizabeth, NJ 07201</p>
-                                    <p style={{marginBottom: '0px'}}><span style={{fontWeight: 'bold'}}>Main Telephone:</span> 908-820-4000</p>
-                                    <p><span style={{fontWeight: 'bold'}}>Email:</span> webmaster@elizabethnj.org</p>
+                                <h2>Contact</h2>
+                                <p id='contact-title'>City Hall</p> 
+                                <p style={{marginBottom: '0px'}}>50 Winfield Scott Plaza</p> 
+                                <p style={{marginBottom: '0px'}}>Elizabeth, NJ 07201</p>
+                                <p style={{marginBottom: '0px'}}><span style={{fontWeight: 'bold'}}>Main Telephone:</span> 908-820-4000</p>
+                                <p><span style={{fontWeight: 'bold'}}>Email:</span> webmaster@elizabethnj.org</p>
 
-                                    <p style={{marginBottom: '0px', fontWeight: 'bold'}}>Elizabeth Police Dept.</p>
-                                    <p style={{marginBottom: '0px'}}>One Police Plaza Elizabeth, NJ 07201</p>
-                                    <p>(908) 558-2111</p>
-                                    
-                                    <p style={{marginBottom: '0px', fontWeight: 'bold'}}>Elizabeth Fire Dept.</p>
-                                    <p style={{marginBottom: '0px'}}>411 Irvington Ave.</p>
-                                    <p style={{marginBottom: '0px'}}>Elizabeth, NJ 07201</p>
-                                    <p>(908) 820-2800</p>
-                                </div>
+                                <p style={{marginBottom: '0px', fontWeight: 'bold'}}>Elizabeth Police Dept.</p>
+                                <p style={{marginBottom: '0px'}}>One Police Plaza Elizabeth, NJ 07201</p>
+                                <p><span style={{fontWeight: 'bold'}}>Main Telephone: </span>(908) 558-2111</p>
+                                
+                                <p style={{marginBottom: '0px', fontWeight: 'bold'}}>Elizabeth Fire Dept.</p>
+                                <p style={{marginBottom: '0px'}}>411 Irvington Ave.</p>
+                                <p style={{marginBottom: '0px'}}>Elizabeth, NJ 07201</p>
+                                <p><span style={{fontWeight: 'bold'}}>Main Telephone: </span>(908) 820-2800</p>
+                               
                             </Col>
                             <Col  className='quick-links'>
                                 {/* Quick Links */}
@@ -42,13 +41,9 @@ class About extends Component{
                                     <a style={{fontSize: '25px', marginBottom: '5px'}} href='https://library.municode.com/nj/elizabeth/codes/code_of_ordinances'>Code Of Ordinances</a>
                                     <a style={{fontSize: '25px', marginBottom: '5px'}} href={GarbageBro}>2019 Garbage and Recycling Brochure</a>
                                     <a style={{fontSize: '25px', marginBottom: '5px'}} href='https://www.facebook.com/pg/CityOfElizabethNJ/events/?ref=page_internal'>Event Calendar</a>                
+                                    <a style={{fontSize: '25px', marginBottom: '5px'}} href='https://main.govpilot.com/web/public/e54331af-4bf.html?id=0&uid=7414&pu=1&ust=NJ&ts=Wed%20May%2023%202018%2009:06:43%20GMT-0400%20(Eastern%20Daylight%20Time)'>Elizabeth Reports</a>
                                     <Link style={{fontSize: '25px'}} to='/City-Hall/VitalStats'>Vital Statistics</Link>
-                                    <div className='socialDiv'>
-                                        <SocialIcon url="https://www.youtube.com/user/CityofElizabeth" />
-                                        <SocialIcon url="https://www.instagram.com/cityofelizabeth/" />
-                                        <SocialIcon url="https://www.facebook.com/CityOfElizabethNJ/" />
-                                        <SocialIcon url="https://twitter.com/CityofElizabeth" />
-                                    </div>
+
                             </Col>
                     </Row>
                     <Row className='main-second'>
