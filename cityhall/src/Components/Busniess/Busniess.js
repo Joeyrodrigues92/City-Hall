@@ -23,6 +23,10 @@ import PNTaxCouSer from '../../PDF/finance/2020SFY_RFQ_PUBLIC NOTICE_PROPERTY TA
 import PublicNotImg from './../../Images/PN.jpg';
 import ActionPlan from '../../PDF/Action Plan Draft.docx';
 import KapkowskiProp from '../../PDF/ProposalKapkowski.pdf';
+import Insurance from '../../PDF/Insurance Consultant.docx';
+import PolicePhy from '../../PDF/Police Physicians.docx';
+import PublicDef from '/Users/user/Desktop/Lit/cityhall/cityhall/src/PDF/RFQ - Public Defenders.docx';
+
 import './Busniess.css';
 
 class Business extends Component{
@@ -66,7 +70,6 @@ class Business extends Component{
                                     <hr/>
                                     <li><a href={TaxSale} target='_blank'>Elizabeth Tax Sale List (2018)</a></li>
                                     <li><a href={OPRA}>OPRA Request Form</a></li>
-                                    {/* <li><a href='https://main.govpilot.com/web/?id=157&ust=NJ' target='_blank'>GOV Pilot GIS Maps</a></li> */}
                                 </ul>
                             </Col>
                             <Col>
@@ -88,6 +91,9 @@ class Business extends Component{
                                     <li><a href={FinAdv} target='_blank'>Request for Qualifications Financial Advisory Services</a></li>
                                     <li><a href={TaxCoun} target='_blank'>Request for Qualifications Property Tax Counsel Services</a></li>
                                     <li><a href={KapkowskiProp} target='_blank'>Request for Technical Proposals: Kapkowski Road Corridor Project Local  Concept Development Study</a></li>
+                                    <li><a href={Insurance} target='_blank'>Request For Qualifications Insurance Consultant</a></li>
+                                    <li><a href={PolicePhy} target='_blank'>Request For Qualifications Police Physician</a></li>
+                                    <li><a href={PublicDef} target='_blank'>Request For Qualifications Public Defenders</a></li>
                                     <hr/>
                                     <li><a href={PNAppServ} target='_blank'>Public Notice Request For Qualifications Appraisal Services </a></li>
                                     <li><a href={PNAusServ} target='_blank'>Public Notice Request For Qualifications Auditing Services</a></li>
@@ -109,7 +115,7 @@ class Business extends Component{
                                 <p style={{marginBottom: '0'}}>Office of Administration</p>
                                 <p style={{marginBottom: '0'}}>Central License Bureau</p>
                                 <p style={{marginBottom: '0'}}>Agency of Weights and Measures</p>
-                                <p style={{marginBottom: '0'}}>Room 101</p>
+                                <p style={{marginBottom: '0'}}>Room 114</p>
                                 <p style={{marginBottom: '0'}}>50 Winfield Scott Plaza</p>
                                 <p>Elizabeth, NJ 07207</p>
 

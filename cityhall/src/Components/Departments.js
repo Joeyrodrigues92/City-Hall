@@ -50,9 +50,7 @@ class Departments extends Component{
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Housing Division</h6>
                 <p style={{fontSize: '13px'}}>Edward M. Kirk, Code Enforcement Officer, 908-820-4068</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Human Services</h6>
-                <p style={{fontSize: '13px'}}>Stanley Neron, Manager of Human Services, 908-820-4206</p>
-                <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Human Rights Commission</h6>
-                <p style={{fontSize: '13px'}}>Joseph L. Adair Jr., Executive Director, 908-820-4215</p>
+                <p style={{fontSize: '13px'}}>908-820-4206</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Law Department</h6>
                 <p style={{fontSize: '13px'}}>William Holzapfel, Director, 908-820-4009; WHolzapfel@ElizabethNJ.org</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Mail Room</h6>
@@ -74,7 +72,7 @@ class Departments extends Component{
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Personnel</h6>
                 <p style={{fontSize: '13px'}}>Anita Pritchard, Personnel Officer, 908-820-4285</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Police Department</h6>
-                <p style={{fontSize: '13px'}}>James Cosgrove, Director, 908-558-2020; epd-director@ElizabethNJ.org</p>
+                <p style={{fontSize: '13px'}}>908-558-2111</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Planning Board & Zoning Board</h6>
                 <p style={{fontSize: '13px'}}>Marta Rivera-Sullivan, Principal Planning Aide, 908-820-4023</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Planning & Community Development</h6>
@@ -90,7 +88,7 @@ class Departments extends Component{
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Purchasing</h6>
                 <p style={{fontSize: '13px'}}>Jill McDonough, Purchasing Agent, 908-820-4174</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Recreation</h6>
-                <p style={{fontSize: '13px'}}>Paul Addessa, Director, 908-820-4226; PAddessa@ElizabethNJ.org</p>
+                <p style={{fontSize: '13px'}}>Stanley Neron, Director, 908-820-4226;</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Relocation</h6>
                 <p style={{fontSize: '13px'}}>Joseph L. Adair Jr., Relocation Officer, 908-820-4215</p>
                 <h6 style={{fontWeight: 'bold', marginBottom: '0px'}}>Rent Control</h6>
