@@ -49,9 +49,10 @@
 
 #found{
     font-family: 'Caveat', cursive;
-    font-size: 15px;
+    font-size: 18px;
     width: 212px;
     letter-spacing: 10px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin: auto;
   }
 

@@ -28,6 +28,7 @@ class Service extends Component{
                         <hr/>
                         <Row>
                             <h2 id='app'>Applications</h2>
+                            <br/>
                         </Row>
                         <Row>
                             <Col>                                    <h5><a href='https://main.govpilot.com/web/public/4b6784e4-0bc.html?id=0&uid=7414&pu=1&ust=NJ&ts=Thu%20Jun%2007%202018%2016:33:16%20GMT-0400%20(Eastern%20Daylight%20Time)'><img alt='IosImage' style={{marginRight:'5px'}} src={GovPilot}/>Dog License Application</a></h5>

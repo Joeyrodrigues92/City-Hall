@@ -28,6 +28,7 @@ class Main extends Component{
                     <Route path='/City-Hall' component={ChRoute}/>
                     <Route path='/Community' component={Community}/>
                     <Route path='/Service' component={Service}/>
+                    <Route component={About} />
                 </Switch>               
             </div>
         )
